@@ -1,5 +1,24 @@
 import React from "react";
 
+//Import des images
+import buttonCatalog from "../images/button-catalog.svg";
+import buttonCatalogHovered from "../images/button-catalog-hovered.svg";
+import buttonCommandes from "../images/button-commandes.svg";
+import buttonCommandesHovered from "../images/button-commandes-hovered.svg";
+import buttonFaq from "../images/button-faq.svg";
+import buttonPortfolio from "../images/button-portfolio.svg";
+import headerMotif from "../images/header-motif.svg";
+import disc from "../images/disc.svg";
+import lineCatalog from "../images/line_catalog.svg";
+import lineCommandes from "../images/line-commandes.svg";
+import linePortfolio from "../images/line-portfolio.svg";
+import separator1 from "../images/separaor1.png";
+import separator2 from "../images/separator2.png";
+import separator3 from "../images/separator3.png";
+import separator4 from "../images/separator4.png";
+import separatorHeader from "../images/separator-header-v2.svg";
+// Fin de l'import des images
+
 function Home () {
     return (
         <>
@@ -11,7 +30,7 @@ function Home () {
                         <h1 class="display-1">Le vrai son.</h1>
                     </div>
                     <div class="headerpicto row">
-                        <img src="ressources/images/disc.png" alt="image du disque" class="smallpic col"/>
+                        <img src={disc} alt="image du disque" class="smallpic col"/>
                         <p class="col">Choisissez parmis un catalogue ou commandez votre musique sur mesure</p>
                     </div>
                     <div class="headerpicto row">
@@ -20,10 +39,11 @@ function Home () {
                     </div>
                 </div>
                 <div class="headerpart col">
-                    <img id="headermotif" src="ressources/svg/header-motif.svg"/>
+                    <img id="headermotif" src={headerMotif}/>
                 </div>
             </div>
         </div>
+        <img src={separatorHeader}/>
     </header>
 
     <main class="bg-dark py-4 container-fluid">
@@ -38,8 +58,8 @@ function Home () {
                         <div class="sectioniteminside d-flex flex-column justify-content-start">
                             <p class="text-light text-uppercase text-end">Accédez au</p>
                             <div>
-                                <img class="separatore" src="ressources/images/separaor1.png"/>
-                                <img class="gobutton" src="ressources/svg/Composant 4 – 5.svg"/>
+                                <img class="separatore" src={separator1}/>
+                                <img class="gobutton" src={buttonCatalog}/>
                             </div>
                             <p class="text-light text-uppercase text-end">catalogue</p>
                         </div>
@@ -49,7 +69,7 @@ function Home () {
                     </div>
                 </div>
                 <div class="sectiondiviser">
-                    <img class="row divisersvg" src="ressources/svg/line_catalog.svg"/>
+                    <img class="row divisersvg" src={lineCatalog}/>
                 </div>
                 <div class="sectionseparate my-5 row">
                     <div class="sectiontexte order-2 col mx-5">
@@ -60,10 +80,10 @@ function Home () {
                         <div class="sectioniteminside d-flex flex-column justify-content-end">
                             <p class="text-light text-uppercase">Accédez au</p>
                             <div>
-                                <img class="gobutton" src="ressources/svg/Composant 4 – 5.svg"/>
-                                <img class="separatore" src="ressources/images/separator2.png"/>
+                                <img class="gobutton" src={buttonPortfolio}/>
+                                <img class="separatore" src={separator2}/>
                             </div>
-                            <p class="text-light text-uppercase">portfolio</p>
+                            <p class="text-light text-uppercase mt-3">portfolio</p>
                         </div>
                         <div class="sectioniteminside">
                             <img/>
@@ -71,7 +91,7 @@ function Home () {
                     </div>
                 </div>
                 <div class="sectiondiviser">
-                    <img class="row divisersvg" src="ressources/svg/line-portfolio.svg"/>
+                    <img class="row divisersvg" src={linePortfolio}/>
                 </div>
                 <div class="sectionseparate my-5 row">
                     <div class="sectiontexte col mx-5">
@@ -82,8 +102,8 @@ function Home () {
                         <div class="sectioniteminside d-flex flex-column justify-content-end">
                             <p class="text-light text-uppercase align-middle">Accédez aux</p>
                             <div>
-                                <img class="separatore align-middle" src="ressources/images/separator3.png"/>
-                                <img class="gobutton" src="ressources/svg/Composant 4 – 5.svg"/>
+                                <img class="separatore align-middle" src={separator3}/>
+                                <img class="gobutton" src={buttonCommandes}/>
                             </div>
                             <p class="text-light text-uppercase align-middle">commandes</p>
                         </div>
@@ -93,7 +113,7 @@ function Home () {
                     </div>
                 </div>
                 <div class="sectiondiviser">
-                    <img class="row divisersvg" src="ressources/svg/line-commandes.svg"/>
+                    <img class="row divisersvg" src={lineCommandes}/>
                 </div>
                 <div class="sectionseparate my-5 row">
                     <div class="sectiontexte order-2 col mx-5">
@@ -104,8 +124,8 @@ function Home () {
                         <div class="sectioniteminside d-flex flex-column justify-content-end">
                             <p class="text-light text-uppercase">Accédez à la</p>
                             <div>
-                                <img class="gobutton" src="ressources/svg/Composant 4 – 5.svg"/>
-                                <img class="separatore" src="ressources/images/separator4.png"/>
+                                <img class="gobutton" src={buttonFaq}/>
+                                <img class="separatore" src={separator4}/>
                             </div>
                             <p class="text-light text-uppercase">faq</p>
                         </div>

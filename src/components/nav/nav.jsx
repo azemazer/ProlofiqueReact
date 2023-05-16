@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from 'react-helmet-async';
 import { Outlet } from "react-router-dom";
+import Logo from "../../images/logo.png"
 
 function Nav() {
     return (
@@ -17,7 +18,7 @@ function Nav() {
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
                 <link href="ressources/css/cssfont.css" type="text/css" rel="stylesheet"/>
                 <link href="ressources/css/style.css" type="text/css" rel="stylesheet"/>
-
+                <script src="https://kit.fontawesome.com/efce024695.js" crossorigin="anonymous"></script>
                 <title>Prolofique - Choose your music !</title>
             </Helmet>
             <nav class="navbar navbar-expand-sm fixed-top">
@@ -25,7 +26,7 @@ function Nav() {
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="home" class="navbar-brand">
-                            <img id="navlogo" src="../ressources/images/logo.png"></img>
+                            <img id="navlogo" src={Logo}></img>
                         </a>
                     </li>
                     <li class="nav-item">
