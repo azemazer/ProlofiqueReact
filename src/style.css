@@ -1,0 +1,66 @@
+#navlogo, #footerlogo {
+    max-height: 2rem;
+    width: auto;
+}
+
+#headermotif {
+    max-height: 10rem;
+    width: auto;
+}
+
+.divisersvg {
+    max-height: 22rem;
+}
+
+.extlinkpic {
+    max-height: 2rem;
+    width: auto;
+}
+
+.separatore {
+    width: auto;
+  max-width: 10rem;
+  height: auto;
+  max-height: 1rem;
+}
+
+.gobutton {
+    max-height: 3rem;
+    width: auto;
+    justify-self: flex-start;
+}
+
+.nav-item{
+    font-family: "Bauhaus 93";
+}
+
+.text-dark{
+    color: brown;
+}
+
+.smallpic   {
+    max-width: 5rem;
+}
+p {
+    margin-top: 1rem;
+}
+
+body, header, nav, footer {
+    background-color: #DBD6C1;
+}
+
+.playbutton{
+    width: auto;
+    max-width: 3rem;
+    height: auto;
+    max-height: 3rem;
+}
+
+.catalog {
+    max-height: 45rem;
+    overflow-y: scroll;
+}
+
+.forfait {
+    max-width: 25rem;
+}

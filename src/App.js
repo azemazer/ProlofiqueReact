@@ -1,25 +1,54 @@
 import logo from './logo.svg';
-import './App.css';
+import './cssreset.css';
+import './style.css';
+import Nav from './components/nav/nav';
+import Footer from './components/footer/footer';
+import Home from './components/home';
+import { createBrowserRouter } from 'react-router-dom';
+import Catalog from './components/catalog';
+import Portfolio from './components/portfolio';
+import Commandes from './components/commandes';
+import Faq from './components/faq';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Nav/>,
+    children: [
+      {
+        path: "home",
+        element: <Home/>,
+      },
+      {
+        path: "catalog",
+        element: <Catalog/>,
+      },
+      {
+        path: "portfolio",
+        element: <Portfolio/>,
+      },
+      {
+        path: "commandes",
+        element: <Commandes/>,
+      },
+      {
+        path: "faq",
+        element: <Faq/>,
+      }
+    ]
+  }
+])
 
-export default App;
+// function App() {
+//   return (
+//     <>
+//       <HelmetProvider>
+//       <Nav></Nav>
+//       <Home></Home>
+//       <Footer></Footer>
+//       </HelmetProvider>
+//     </>
+//   );
+// }
+
+export default router;
