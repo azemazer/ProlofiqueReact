@@ -1,6 +1,18 @@
 import React from "react";
+import axios from "./axios";
+
+function Songs() {
+    axios.get('/songs')
+    .then(function(response) {
+        console.log(response)
+    }).catch(function (error) {
+        // en cas d’échec de la requête
+        console.log(error);
+      })
+}
 
 function Catalog () {
+    
     return <>
         <h1>CATALOGUE</h1>
         <div class="container">
