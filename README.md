@@ -27,9 +27,16 @@ Oh and, by the way, **I am Prolofique.**
 
 ## Overview
 
+The app was made using HTML/CSS/Bootstrap, a React front-end and a Laravel API back-end.
+
 ## Front-end
 
+React was used to provide a smooth user experience with multiple contexts and reusable components. It also includes the use of Formik, Yup, Axios and Helmet.
+Bootstrap was used in order to quickly and efficiently design the app.
+
 ## Back-end
+
+Laravel was chosen for its powerful, quick and easy to use API service.
 
 # Design
 
