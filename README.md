@@ -36,7 +36,7 @@ Bootstrap was used in order to quickly and efficiently design the app.
 
 ## Back-end
 
-Laravel was chosen for its powerful, quick and easy to use API service.
+Laravel was chosen for its powerful, quick and easy to use API service. [Here is the repo.](https://github.com/azemazer/prolofiqueAPI)
 
 # Design
 
