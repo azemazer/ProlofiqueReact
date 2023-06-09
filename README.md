@@ -40,6 +40,26 @@ Laravel was chosen for its powerful, quick and easy to use API service.
 
 # Design
 
+[The prototype.](https://xd.adobe.com/view/53ce892e-c7fb-4913-b0c2-f34b04da23b4-069d/screen/9c4fc074-25f6-4dd0-b362-08472ebc4207/)
+
 ## Design: how?
 
+Element of design made with Adobe Illustrator, Photoshop, AfterEffects, XD.
+
 ## Design: why?
+
+The design has 2 main particularities:
+
+- On one hand, it's retro, evoking the real instruments played in the 1970s in contrast to the emergence of VSTs and sample libraries imitating the sound of instruments. This is because Prolofique is a multi-instrumentist.
+- On the other hand, elements of the design like circles and raimbows evoke the versatility of the artist, able to make orchestral music as well as electronic, jazz or rock music.
+
+Also the design needed to be eye-captivating.
+
+# Credits
+
+Excluding the dependencies, I programmed everything.
+I also designed everything.
+
+# License
+
+All rights reserved.
