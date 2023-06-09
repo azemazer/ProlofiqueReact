@@ -18,11 +18,21 @@ Oh and, by the way, **I am Prolofique.**
 
 ## Additionnal features
 
-  1. **FAQ:**
-  2. **CONTACT:**
-  3. **MUSIC PLAYER:**
-  4. **LINKS:**
+  1. **FAQ:** A rather classic FAQ explaining how to use the app.
+  2. **CONTACT:** A way for users to contact the artist directly for further collaboration and business inquiries.
+  3. **MUSIC PLAYER:** A music player accessible from everywhere on the app where you can play music from the catalog.
+  4. **LINKS:** Links to the artist's various profiles.
+
+# Architecture
+
+## Overview
+
+## Front-end
+
+## Back-end
 
 # Design
 
-# Architecture
+## Design: how?
+
+## Design: why?
