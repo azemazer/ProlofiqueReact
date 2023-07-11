@@ -21,25 +21,25 @@ function Nav() {
                 <script src="https://kit.fontawesome.com/efce024695.js" crossorigin="anonymous"></script>
                 <title>Prolofique - Choose your music !</title>
             </Helmet>
-            <nav class="navbar navbar-expand-sm fixed-top">
-            <div class="container-fluid justify-content-center">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="home" class="navbar-brand">
+            <nav className="navbar navbar-expand-sm fixed-top">
+            <div className="container-fluid justify-content-center">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <a href="home" className="navbar-brand">
                             <img id="navlogo" src={Logo}></img>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="catalog">Catalogue</a>
+                    <li className="nav-item">
+                        <a className="nav-link text-dark" href="catalog">Catalogue</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="commandes">Commandes</a>
+                    <li className="nav-item">
+                        <a className="nav-link text-dark" href="commandes">Commandes</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="portfolio">Portfolio</a>
+                    <li className="nav-item">
+                        <a className="nav-link text-dark" href="portfolio">Portfolio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="faq">FAQ</a>
+                    <li className="nav-item">
+                        <a className="nav-link text-dark" href="faq">FAQ</a>
                     </li>
                 </ul>
             </div>

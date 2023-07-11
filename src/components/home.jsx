@@ -36,22 +36,22 @@ function Home () {
         {/* *** HEADER *** */}
 
             <header>
-        <div class="headerbloc mt-5 container">
-            <div class="row">
-                <div class="headerpart col">
-                    <div class="row">
-                        <h1 class="display-1">Le vrai son.</h1>
+        <div className="headerbloc mt-5 container">
+            <div className="row">
+                <div className="headerpart col">
+                    <div className="row">
+                        <h1 className="display-1">Le vrai son.</h1>
                     </div>
-                    <div class="headerpicto row">
-                        <img src={disc} alt="image du disque" class="smallpic col-2"/>
-                        <p class="col">Choisissez parmis un catalogue ou commandez votre musique sur mesure</p>
+                    <div className="headerpicto row">
+                        <img src={disc} alt="image du disque" className="smallpic col-2"/>
+                        <p className="col">Choisissez parmis un catalogue ou commandez votre musique sur mesure</p>
                     </div>
-                    <div class="headerpicto row">
-                        <img src="ressources/images/loupe.png" alt="image de la loupe" class="smallpic col-2"/>
-                        <p class="col">Un large choix de musiques sans droits d'auteurs et gratuites avec de vrais instruments</p>
+                    <div className="headerpicto row">
+                        <img src="ressources/images/loupe.png" alt="image de la loupe" className="smallpic col-2"/>
+                        <p className="col">Un large choix de musiques sans droits d'auteurs et gratuites avec de vrais instruments</p>
                     </div>
                 </div>
-                <div class="headerpart col">
+                <div className="headerpart col">
                     <img id="headermotif" src={headerMotif}/> {/* the repeating motif on the right of the header */} 
                 </div>
             </div>
@@ -63,113 +63,119 @@ function Home () {
 
         {/* *** CATALOG *** */}
 
-    <main class="bg-dark py-4 container-fluid">
-        <div class="section">
-           <div class="blocsection container d-flex align-items-center justify-content-center flex-column ">
-                <div class="sectionseparate my-5 row">
-                    <div class="sectiontexte col mx-5">
-                        <h2 class="text-light text-center text-uppercase">Catalogue</h2>
-                        <p class="text-light fs-4 text-center text-uppercase fw-light mx-5">Un catalogue rempli de musiques variées. Achetez leurs licenses ou profitez de leur utilisation gratuite</p>
+    <main className="bg-dark py-4 container-fluid">
+        <div className="section">
+           <div className="blocsection container d-flex align-items-center justify-content-center flex-column ">
+                <div className="sectionseparate my-5 row">
+                    <div className="sectiontexte col mx-5">
+                        <h2 className="text-light text-center text-uppercase">Catalogue</h2>
+                        <p className="text-light fs-4 text-center text-uppercase fw-light mx-5">Un catalogue rempli de musiques variées. Achetez leurs licenses ou profitez de leur utilisation gratuite</p>
                     </div>
-                    <div class="sectionitem col">
-                        <div class="sectioniteminside d-flex flex-column justify-content-start">
-                            <p class="text-light text-uppercase text-end">Accédez au</p>
-                            <div class= "right-home-buttons">
-                                <img class="separatore" src={separator1}/>
+                    <div className="sectionitem col">
+                        <div className="sectioniteminside d-flex flex-column justify-content-start">
+                            <p className="text-light text-uppercase text-end">Accédez au</p>
+                            <div className= "text-end">
+                                <img className="separatore" src={separator1}/>
                                 <a href="catalog">
-                                    <img class="gobutton" src={buttonCatalog} href="catalog"/>
+                                    <img className="gobutton" src={buttonCatalog} href="catalog"/>
                                 </a>
                             </div>
-                            <p class="text-light text-uppercase text-end">catalogue</p>
+                            <p className="text-light text-uppercase text-end">catalogue</p>
                         </div>
-                        <div class="sectioniteminside">
+                        <div className="sectioniteminside">
                             <img/>
                         </div>
                     </div>
                 </div>
-                <div class="sectiondiviser">
-                    <img class="row divisersvg" src={lineCatalog}/>
+                <div className="sectiondiviser">
+                    <img className="row divisersvg" src={lineCatalog}/>
                 </div>
 
 
                 {/* *** PORTFOLIO *** */}
 
 
-                <div class="sectionseparate my-5 row">
-                    <div class="sectiontexte order-2 col mx-5">
-                        <h2 class="text-light text-center text-uppercase">Portfolio</h2>
-                        <p class="text-light fs-4 text-center text-uppercase fw-light mx-5">Derrière chaque artiste, il y a un humain. Découvrez-le à travers son portfolio</p>
+                <div className="sectionseparate my-5 row">
+                    <div className="sectiontexte order-2 col mx-5">
+                        <h2 className="text-light text-center text-uppercase">Portfolio</h2>
+                        <p className="text-light fs-4 text-center text-uppercase fw-light mx-5">Derrière chaque artiste, il y a un humain. Découvrez-le à travers son portfolio</p>
                     </div>
-                    <div class="sectionitem col">
-                        <div class="sectioniteminside d-flex flex-column justify-content-end">
-                            <p class="text-light text-uppercase">Accédez au</p>
-                            <div class="sectioniteminside d-flex flex-column justify-content-end">
-                                <img class="gobutton" src={buttonPortfolio}/>
-                                <img class="separatore" src={separator2}/>
+                    <div className="sectionitem col">
+                        <div className="sectioniteminside d-flex flex-column justify-content-end">
+                            <p className="text-light text-uppercase">Accédez au</p>
+                            <div className= "text-start">
+                                <a href="portfolio">
+                                    <img className="gobutton" src={buttonPortfolio}/>
+                                </a>
+                                <img className="separatore" src={separator2}/>
                             </div>
-                            <p class="text-light text-uppercase mt-3">portfolio</p>
+                            <p className="text-light text-uppercase mt-3">portfolio</p>
                         </div>
-                        <div class="sectioniteminside">
+                        <div className="sectioniteminside">
                             <img/>
                         </div>
                     </div>
                 </div>
-                <div class="sectiondiviser">
-                    <img class="row divisersvg" src={linePortfolio}/>
+                <div className="sectiondiviser">
+                    <img className="row divisersvg" src={linePortfolio}/>
                 </div>
 
 
                 {/* *** ORDERS *** */}
 
                 
-                <div class="sectionseparate my-5 row">
-                    <div class="sectiontexte col mx-5">
-                        <h2 class="text-light text-center text-uppercase">Commandes</h2>
-                        <p class="text-light fs-4 text-center text-uppercase fw-light mx-5">Commandez vos propres musiques sur-mesures et obtenez-en la licence</p>
+                <div className="sectionseparate my-5 row">
+                    <div className="sectiontexte col mx-5">
+                        <h2 className="text-light text-center text-uppercase">Commandes</h2>
+                        <p className="text-light fs-4 text-center text-uppercase fw-light mx-5">Commandez vos propres musiques sur-mesures et obtenez-en la licence</p>
                     </div>
-                    <div class="sectionitem col">
-                        <div class="sectioniteminside d-flex flex-column justify-content-end">
-                            <p class="text-light text-uppercase align-middle">Accédez aux</p>
-                            <div>
-                                <img class="separatore align-middle" src={separator3}/>
-                                <img class="gobutton" src={buttonCommandes}/>
+                    <div className="sectionitem col">
+                        <div className="sectioniteminside d-flex flex-column justify-content-end">
+                            <p className="text-light text-end text-uppercase align-middle">Accédez aux</p>
+                            <div className= "text-end">
+                                <img className="separatore align-middle" src={separator3}/>
+                                <a href="commandes">
+                                    <img className="gobutton" src={buttonCommandes}/>
+                                </a>
                             </div>
-                            <p class="text-light text-uppercase align-middle">commandes</p>
+                            <p className="text-light text-uppercase align-middle text-end">commandes</p>
                         </div>
-                        <div class="sectioniteminside">
+                        <div className="sectioniteminside">
                             <img/>
                         </div>
                     </div>
                 </div>
-                <div class="sectiondiviser">
-                    <img class="row divisersvg" src={lineCommandes}/>
+                <div className="sectiondiviser">
+                    <img className="row divisersvg" src={lineCommandes}/>
                 </div>
 
 
                 {/* *** FAQ *** */}
 
 
-                <div class="sectionseparate my-5 row">
-                    <div class="sectiontexte order-2 col mx-5">
-                        <h2 class="text-light text-center">FAQ</h2>
-                        <p class="text-light fs-4 text-center text-uppercase fw-light mx-5">Si vous avez des questions sur le fonctionnement du site, cliquez ici</p>
+                <div className="sectionseparate my-5 row">
+                    <div className="sectiontexte order-2 col mx-5">
+                        <h2 className="text-light text-center">FAQ</h2>
+                        <p className="text-light fs-4 text-center text-uppercase fw-light mx-5">Si vous avez des questions sur le fonctionnement du site, cliquez ici</p>
                     </div>
-                    <div class="sectionitem col">
-                        <div class="sectioniteminside d-flex flex-column justify-content-end">
-                            <p class="text-light text-uppercase">Accédez à la</p>
+                    <div className="sectionitem col">
+                        <div className="sectioniteminside d-flex flex-column justify-content-end">
+                            <p className="text-light text-uppercase">Accédez à la</p>
                             <div>
-                                <img class="gobutton" src={buttonFaq}/>
-                                <img class="separatore" src={separator4}/>
+                                <a href="faq">
+                                    <img className="gobutton" src={buttonFaq}/>
+                                </a>
+                                <img className="separatore" src={separator4}/>
                             </div>
-                            <p class="text-light text-uppercase">faq</p>
+                            <p className="text-light text-uppercase">faq</p>
                         </div>
-                        <div class="sectioniteminside">
+                        <div className="sectioniteminside">
                             <img/>
                         </div>
                     </div>
                 </div>
-                <div class="sectiondiviser">
-                    <img class="row divisersvg" src="ressources/svg/line_faq.svg"/>
+                <div className="sectiondiviser">
+                    <img className="row divisersvg" src="ressources/svg/line_faq.svg"/>
                 </div>
            </div> 
         </div>

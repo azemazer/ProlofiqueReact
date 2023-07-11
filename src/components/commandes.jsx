@@ -13,63 +13,63 @@ on the website.
 
 function Commandes () {
     return <>
-        <h1 class="m-5 text-center">COMMANDES</h1>
-        <div class="container">
-            <div class="d-flex flex-wrap justify-content-around">
+        <h1 className="m-5 text-center">COMMANDES</h1>
+        <div className="container">
+            <div className="d-flex flex-wrap justify-content-around">
 
                 {/* FORFAIT 1 */}
 
-                <div class="forfait card bg-dark text-center mb-3">
-                    <div class="card-header text-light">
+                <div className="forfait card bg-dark text-center mb-3">
+                    <div className="card-header text-light">
                         FORFAIT 1
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-light">Standard</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item bg-dark text-light">Feature 1 Impressionant !</li>
-                            <li class="list-group-item bg-dark text-light">Feature 2 encore plus impressionant !</li>
-                            <li class="list-group-item bg-dark text-light">Feature 3 décidément c'est trop d'émotions</li>
+                    <div className="card-body">
+                        <h5 className="card-title text-light">Standard</h5>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item bg-dark text-light">Feature 1 Impressionant !</li>
+                            <li className="list-group-item bg-dark text-light">Feature 2 encore plus impressionant !</li>
+                            <li className="list-group-item bg-dark text-light">Feature 3 décidément c'est trop d'émotions</li>
                         </ul>
-                        <div class="card-footer bg-transparent">
-                            <a href="#" class="btn btn-outline-warning rounded-pill">Go somewhere</a>
+                        <div className="card-footer bg-transparent">
+                            <a href="#" className="btn btn-outline-warning rounded-pill">Go somewhere</a>
                         </div>
                     </div>
                 </div>
 
                 {/* FORFAIT 2 */}
 
-                <div class="forfait card bg-dark text-center mb-3">
-                    <div class="card-header text-light">
+                <div className="forfait card bg-dark text-center mb-3">
+                    <div className="card-header text-light">
                         FORFAIT 2
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-light">Standard</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item bg-dark text-light">Feature 1 Impressionant !</li>
-                            <li class="list-group-item bg-dark text-light">Feature 2 encore plus impressionant !</li>
-                            <li class="list-group-item bg-dark text-light">Feature 3 décidément c'est trop d'émotions</li>
+                    <div className="card-body">
+                        <h5 className="card-title text-light">Standard</h5>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item bg-dark text-light">Feature 1 Impressionant !</li>
+                            <li className="list-group-item bg-dark text-light">Feature 2 encore plus impressionant !</li>
+                            <li className="list-group-item bg-dark text-light">Feature 3 décidément c'est trop d'émotions</li>
                         </ul>
-                        <div class="card-footer bg-transparent">
-                            <a href="#" class="btn btn-outline-warning rounded-pill">Go somewhere</a>
+                        <div className="card-footer bg-transparent">
+                            <a href="#" className="btn btn-outline-warning rounded-pill">Go somewhere</a>
                         </div>
                     </div>
                 </div>
 
                 {/* FORFAIT 3 */}
 
-                <div class="forfait card bg-dark text-center mb-3">
-                    <div class="card-header text-light">
+                <div className="forfait card bg-dark text-center mb-3">
+                    <div className="card-header text-light">
                         FORFAIT 3
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-light">Standard</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item bg-dark text-light">Feature 1 Impressionant !</li>
-                            <li class="list-group-item bg-dark text-light">Feature 2 encore plus impressionant !</li>
-                            <li class="list-group-item bg-dark text-light">Feature 3 décidément c'est trop d'émotions</li>
+                    <div className="card-body">
+                        <h5 className="card-title text-light">Standard</h5>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item bg-dark text-light">Feature 1 Impressionant !</li>
+                            <li className="list-group-item bg-dark text-light">Feature 2 encore plus impressionant !</li>
+                            <li className="list-group-item bg-dark text-light">Feature 3 décidément c'est trop d'émotions</li>
                         </ul>
-                        <div class="card-footer bg-transparent">
-                            <a href="#" class="btn btn-outline-warning rounded-pill">Go somewhere</a>
+                        <div className="card-footer bg-transparent">
+                            <a href="#" className="btn btn-outline-warning rounded-pill">Go somewhere</a>
                         </div>
                     </div>
                 </div>
