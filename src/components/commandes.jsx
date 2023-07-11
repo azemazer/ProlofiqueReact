@@ -1,10 +1,24 @@
 import React from "react";
 
+/*
+
+    --- ORDERS ---
+Contains the Orders HTML
+that appears when user
+goes to the Orders tab
+on the website.
+    --- **** ---
+
+*/
+
 function Commandes () {
     return <>
         <h1 class="m-5 text-center">COMMANDES</h1>
         <div class="container">
             <div class="d-flex flex-wrap justify-content-around">
+
+                {/* FORFAIT 1 */}
+
                 <div class="forfait card bg-dark text-center mb-3">
                     <div class="card-header text-light">
                         FORFAIT 1
@@ -21,6 +35,9 @@ function Commandes () {
                         </div>
                     </div>
                 </div>
+
+                {/* FORFAIT 2 */}
+
                 <div class="forfait card bg-dark text-center mb-3">
                     <div class="card-header text-light">
                         FORFAIT 2
@@ -37,6 +54,9 @@ function Commandes () {
                         </div>
                     </div>
                 </div>
+
+                {/* FORFAIT 3 */}
+
                 <div class="forfait card bg-dark text-center mb-3">
                     <div class="card-header text-light">
                         FORFAIT 3

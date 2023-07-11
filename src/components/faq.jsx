@@ -1,5 +1,16 @@
 import React from "react";
 
+/*
+
+    --- FAQ ---
+Contains the FAQ HTML
+that appears when user
+goes to the FAQ tab
+on the website.
+    --- *** ---
+
+*/
+
 function Faq () {
     return <>
         <h1 class = "m-5 text-center">FAQ</h1>

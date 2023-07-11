@@ -13,7 +13,7 @@ import Faq from './components/faq';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Nav/>,
+    element: <Nav/>, // The navbar element, present on all pages
     children: [
       {
         path: "home",
@@ -38,17 +38,5 @@ const router = createBrowserRouter([
     ]
   }
 ])
-
-// function App() {
-//   return (
-//     <>
-//       <HelmetProvider>
-//       <Nav></Nav>
-//       <Home></Home>
-//       <Footer></Footer>
-//       </HelmetProvider>
-//     </>
-//   );
-// }
 
 export default router;
