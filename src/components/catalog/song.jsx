@@ -10,7 +10,7 @@ function Song({props}) {
     //     </div>
     //   </div>
     // )
-    return (props.song.title);
+    return (<p>{props.song.title}</p>);
     return (
         <div class="list-group list-group-horizontal list-group-flush flex-grow d-flex align-items-center">
                     <div class="p-2">

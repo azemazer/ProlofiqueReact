@@ -82,3 +82,7 @@ body, header, nav, footer {
 .bg-dark {
     background-color: #222323;
 }
+
+.right-home-buttons {
+    justify-content: space-between
+}

@@ -74,9 +74,11 @@ function Home () {
                     <div class="sectionitem col">
                         <div class="sectioniteminside d-flex flex-column justify-content-start">
                             <p class="text-light text-uppercase text-end">Accédez au</p>
-                            <div>
+                            <div class= "right-home-buttons">
                                 <img class="separatore" src={separator1}/>
-                                <img class="gobutton" src={buttonCatalog}/>
+                                <a href="catalog">
+                                    <img class="gobutton" src={buttonCatalog} href="catalog"/>
+                                </a>
                             </div>
                             <p class="text-light text-uppercase text-end">catalogue</p>
                         </div>
@@ -101,7 +103,7 @@ function Home () {
                     <div class="sectionitem col">
                         <div class="sectioniteminside d-flex flex-column justify-content-end">
                             <p class="text-light text-uppercase">Accédez au</p>
-                            <div>
+                            <div class="sectioniteminside d-flex flex-column justify-content-end">
                                 <img class="gobutton" src={buttonPortfolio}/>
                                 <img class="separatore" src={separator2}/>
                             </div>
